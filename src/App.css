@@ -10,7 +10,7 @@ body,
 
 .main-container {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)),
-    url("https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg");
+    url("https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
   background-size: cover;
   background-position: center;
 }
@@ -25,7 +25,9 @@ body,
 
 .search {
   outline: none;
-  padding: 20px 7%;
+  padding: 10px 4%;
+  width: 18%;
+  height: 50px;
   border-radius: 20px;
   border: none;
   margin-bottom: 5%;
@@ -47,6 +49,19 @@ p {
   margin-top: 10px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.title-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ffff;
+  font-size: 24px;
+  text-align: center;
 }
 
 .city-temp {
